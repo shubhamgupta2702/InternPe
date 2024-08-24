@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#90EE90 ; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #8bb4f3;
+    color: black;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.navbar a.active {
+    background-color: #1e44f0;
+    color: white;
+}
+
+.navbar {
+    background: rgba(255,255,255,0.2);
+    overflow: hidden;
+}
+#companyname{
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#mainlogo {
+    float: left;
+    height: 35px;
+    padding: 7px;
+}
+
+.main-content{
+    float: inline-start;
+    padding-top: 125px;
+   
+}
+#laptop{
+    width: 30%;
+    height: 10%;
+    float: inline-end;
+    margin-top: 70px;
+    margin-right: 40px;
+    border-radius: 40px;
+
+}
+.laptop1{
+    width: 30%;
+    height: 10%;
+    float: inline-end;
+    margin-top: 100px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 40px;
+    margin-bottom: 100px;
+
+}
+.laptop1:hover{
+    box-shadow: 10px 10px 5px rgb(18, 90, 47);
+    cursor: pointer;
+    transition: .7s;
+}
+.laptop2:hover{
+    box-shadow: 10px 10px 5px rgb(18, 90, 47);
+    cursor: pointer;
+    transition: .7s;
+}
+.laptop2{
+    width: 30%;
+    height: 10%;
+    float: inline-start;
+    margin-top: 100px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+
+}
+#laptop:hover{
+
+        box-shadow: 10px 10px 5px rgb(23, 174, 83);
+    cursor: pointer;
+    transition: .7s;
+}
+.main-heading{
+    font-size: 50px;
+    padding-left: 120px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    font-family:SpaceGrotesk-Medium;
+}
+.contentDescription{
+    font-size: large;
+    font-weight: 600;
+    padding-left: 50px;
+    margin-top: 40px;
+
+}
+.btn{
+    margin-left: 160px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(39, 187, 201);
+}
+.btn:hover {
+    box-shadow: 10px 10px 5px rgb(23, 174, 83);
+    cursor: pointer;
+    transition: .7s;
+}
+.belowcontent{
+    margin-top: 500px;
+    background: rgba(255,255,255,0.4);
+    overflow: hidden;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.belowcontent:hover{
+    box-shadow: 10px 10px 5px rgb(23, 174, 83);
+    cursor: pointer;
+    transition: .7s;
+}
+.belowcontent2{
+    
+    background: rgba(255,255,255,0.4);
+    overflow: hidden;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.belowcontent2:hover{
+    box-shadow: 10px 10px 5px rgb(23, 174, 83);
+    cursor: pointer;
+    transition: .7s;
+}
+.belowheading{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+}
+.belowcontent p{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.belowcontent2 p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.foot {
+
+    background-color: #04AA6D;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+
+
+}
+
+.link {
+
+    margin: 10px;
+    color: #1e44f0;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+
+#copyright {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: large;
+}
+#mainlogo2 {
+    float: left;
+    height: 120px;
+    padding: 7px;
+}
+.fa {
+    
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    font-size: 30px;
+    width: 10px;
+    border-radius: 10px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa:hover {
+    opacity: .8;
+    color: #fff;
+}
+
+.stickyicon-list a:hover {
+    color: #fff;
+    width: 10px;
+}
+
+.facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.twitter {
+    color: white;
+    background: #00acee;
+}
+
+.linkedin {
+    background: #0e76a8;
+    color: white;
+}
+
+.instagram {
+    background: #3f729b;
+    color: white;
+}
+
+.youtube {
+    color: white;
+    background: #c4302b;
+}
